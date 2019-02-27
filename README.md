@@ -4,11 +4,13 @@ A simple React form designer  tool
 ```
 yarn install
 
-yarn start
-
 yarn bootstrap
+
+yarn start
 
 yarn build-fragments
 
 yarn start-fragments
 
+
+yarn watch-fragments

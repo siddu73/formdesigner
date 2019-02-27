@@ -7,7 +7,6 @@
   "author": "kasiriveni <kasiriveni@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lernainit": "lerna init",
     "bootstrap": "lerna bootstrap",
     "build-fragments": "lerna run build",
     "start-fragments": "lerna run --parallel start",
