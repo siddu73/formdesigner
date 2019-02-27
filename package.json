@@ -1,0 +1,21 @@
+{
+  "name": "formdesigner",
+  "version": "1.0.0",
+  "description": "simple form designer developed in React",
+  "main": "server.js",
+  "repository": "https://github.com/kasiriveni/formdesigner.git",
+  "author": "kasiriveni <kasiriveni@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lernainit": "lerna init",
+    "bootstrap": "lerna bootstrap",
+    "build-fragments": "lerna run build",
+    "start-fragments": "lerna run --parallel start",
+    "watch-fragments": "lerna run --parallel watch",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1",
+    "node-tailor": "^3.9.2"
+  }
+}
