@@ -1,0 +1,29 @@
+{
+    "name": "designerarea",
+    "version": "1.0.0",
+    "description": "designer area",
+    "main": "./src/component/index.js",
+    "author": "kasiriveni",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack -w",
+        "build:dev": "npm run build && npm run watch",
+        "start": "node tailorserver.js"
+    },
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*"
+    },
+    "devDependencies": {
+        "@babel/core": "*",
+        "@babel/preset-env": "*",
+        "@babel/preset-react": "*",
+        "babel-loader": "*",
+        "webpack": "*",
+        "webpack-cli": "*",
+        "clean-webpack-plugin": "^1.0.1",
+        "css-loader": "^2.1.0",
+        "style-loader": "^0.23.1"
+    }
+}

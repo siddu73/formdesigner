@@ -6,6 +6,10 @@
   "repository": "https://github.com/kasiriveni/formdesigner.git",
   "author": "kasiriveni <kasiriveni@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build-fragments": "lerna run build",
