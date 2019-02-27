@@ -12,7 +12,7 @@
     "build-fragments": "lerna run build",
     "start-fragments": "lerna run --parallel start",
     "watch-fragments": "lerna run --parallel watch",
-    "start": "node server.js"
+    "start": "node tailorserver.js"
   },
   "devDependencies": {
     "lerna": "^3.13.1",

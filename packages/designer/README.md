@@ -1,11 +1,11 @@
 ### fragement creation
 
 ```
-npm install
+yarn install
 
-npm start
+yarn start
 
-npm run build:dev
+yarn  build:dev
 
 opne the index.html in your browser
 ```

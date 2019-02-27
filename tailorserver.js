@@ -16,9 +16,9 @@ http.createServer((req, res) => {
     }
 
     req.headers["x-request-uri"] = req.url;
-    req.url = "/master";
+    req.url = "/index";
 
     tailor.requestHandler(req, res);
-}).listen(8080, function() {
+}).listen(8080, function () {
     console.log(`Tailor server running at http://${hostname}:${port}`);
 });
