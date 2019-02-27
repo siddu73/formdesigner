@@ -10,7 +10,7 @@
         "watch": "webpack -w",
         "build:dev": "npm run build && npm run watch",
         "start": "node tailorserver.js",
-        "api": "node server/index.js"
+        "api": " babel-watch server/index.js"
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
@@ -19,16 +19,17 @@
         "react-dom": "*"
     },
     "devDependencies": {
-        "express": "^4.16.4",
         "@babel/core": "*",
         "@babel/plugin-proposal-class-properties": "^7.3.4",
         "@babel/preset-env": "*",
         "@babel/preset-react": "*",
         "babel-loader": "*",
+        "babel-watch": "^7.0.0",
         "bluebird": "^3.5.3",
         "body-parser": "^1.18.3",
         "cors": "^2.8.5",
         "css-loader": "^2.1.0",
+        "express": "^4.16.4",
         "node-command-line": "^1.0.2",
         "style-loader": "^0.23.1",
         "webpack": "*",

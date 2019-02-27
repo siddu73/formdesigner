@@ -20,7 +20,7 @@ class Header extends React.Component {
 
     fetch(url, {
       method: 'POST',
-      body: JSON.stringify(data),
+      body: data,
       headers: {
         'Content-Type': 'application/json'
       }

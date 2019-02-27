@@ -19,6 +19,7 @@ function runSingleCommandWithWait(inputContent) {
 
 app.post("/route", function (req, res) {
     var inputContent = req.body.textField;
+    console.log(inputContent)
     res.status(200).send({
         status: 200,
         Message: "success",

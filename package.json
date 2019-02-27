@@ -11,6 +11,7 @@
     "build-fragments": "lerna run build",
     "start-fragments": "lerna run --parallel start",
     "watch-fragments": "lerna run --parallel watch",
+    "build-api": "lerna run --parallel api",
     "start": "node tailorserver.js"
   },
   "devDependencies": {
