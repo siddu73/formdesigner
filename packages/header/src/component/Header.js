@@ -16,7 +16,7 @@ class Header extends React.Component {
   handleSubmit = (event) => {
     alert('A name was submitted: ' + this.state.value);
     event.preventDefault();
-    const data = this.state.value
+    const data = { "textField": this.state.value };
 
     fetch(url, {
       method: 'POST',
