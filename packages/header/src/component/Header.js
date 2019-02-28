@@ -31,21 +31,21 @@ class Header extends React.Component {
   render() {
     return (
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand">Form Designer </a>
+      <nav className="navbar navbar-default">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <a className="navbar-brand">🛃 Form Designer 🛃</a>
           </div>
-          <form class="form-inline" onSubmit={this.handleSubmit}>
-            <div class="form-group">
-              <label for="Fragment name">
+          <form className="form-inline" onSubmit={this.handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="Fragment name">
                 Enter the fragment name
 
               </label>
-              <input type="text" onChange={this.handleChange} class="form-control" />
+              <input type="text" onChange={this.handleChange} className="form-control" />
 
             </div>
-            <button type="submit" class="btn btn-primary btn-md">Create</button>
+            <button type="submit" className="btn btn-primary btn-md">Create</button>
           </form>
         </div>
       </nav>
