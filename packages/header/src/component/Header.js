@@ -34,12 +34,12 @@ class Header extends React.Component {
       <nav className="navbar navbar-default">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a className="navbar-brand">🛃 Form Designer 🛃</a>
+            <a className="navbar-brand"> BOB Application Designer </a>
           </div>
           <form className="form-inline" onSubmit={this.handleSubmit}>
             <div className="form-group">
               <label htmlFor="Fragment name">
-                Enter the fragment name
+                Fragment name
 
               </label>
               <input type="text" onChange={this.handleChange} className="form-control" />

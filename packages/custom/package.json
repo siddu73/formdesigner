@@ -1,0 +1,26 @@
+{
+    "name": "samplefragement",
+    "version": "1.0.0",
+    "description": "sample project description",
+    "main": "./src/component/index.js",
+    "author": "kasiriveni",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "watch": "webpack -w",
+        "build:dev": "npm run build && npm run watch",
+        "start": "node tailorserver.js"
+    },
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*"
+    },
+    "devDependencies": {
+        "@babel/core": "*",
+        "@babel/preset-env": "*",
+        "@babel/preset-react": "*",
+        "babel-loader": "*",
+        "webpack": "*",
+        "webpack-cli": "*"
+    }
+}
