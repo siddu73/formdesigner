@@ -29,13 +29,26 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Fragment name:
-        <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Create" />
-      </form>
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand">Form Designer </a>
+          </div>
+          <form class="form-inline" onSubmit={this.handleSubmit}>
+            <div class="form-group">
+              <label for="Fragment name">
+                Fragment name:
+
+              </label>
+              <input type="text" value={this.state.value} onChange={this.handleChange} class="form-control" />
+
+            </div>
+            <button type="submit" class="btn btn-primary btn-md">Create</button>
+          </form>
+        </div>
+      </nav>
+
     )
   }
 }
