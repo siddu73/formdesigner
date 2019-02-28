@@ -1,7 +1,10 @@
 import React from "react";
+import { FormBuilder } from 'react-formio';
 const Hello = () => {
   return (
-    <div>loading the designer</div>
+    <div>
+      <FormBuilder form={{ display: 'form' }} onChange={(schema) => console.log(schema)} />
+    </div>
   )
 }
 export default Hello;
