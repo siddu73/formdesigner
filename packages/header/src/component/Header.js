@@ -26,6 +26,7 @@ class Header extends React.Component {
     }).then(res => res.json())
       .then(response => console.log('Success:', JSON.stringify(response)))
       .catch(error => console.error('Error:', error));
+
   }
   render() {
     return (
@@ -38,10 +39,10 @@ class Header extends React.Component {
           <form class="form-inline" onSubmit={this.handleSubmit}>
             <div class="form-group">
               <label for="Fragment name">
-                Fragment name:
+                Enter the fragment name
 
               </label>
-              <input type="text" value={this.state.value} onChange={this.handleChange} class="form-control" />
+              <input type="text" onChange={this.handleChange} class="form-control" />
 
             </div>
             <button type="submit" class="btn btn-primary btn-md">Create</button>
